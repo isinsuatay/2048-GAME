@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  #score {
+    margin-bottom: 10px;
+  }
+  #table{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 20px solid pink;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block; 
+    border-radius: 5px;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center; 
+    vertical-align: top; 
+  }
+ 
+
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:rgb(161, 176, 204);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(79, 94, 122);
+  }
